@@ -94,10 +94,6 @@ export default function Offer({ whatsappUrl }: OfferProps) {
               <p className="text-marrom-mid leading-relaxed mb-2">
                 Todo paciente atendido tem direito a <strong>1 consulta de retorno por teleatendimento sem custo adicional</strong> dentro de 30 dias após o primeiro atendimento.
               </p>
-              <p className="text-marrom-mid text-sm leading-relaxed mb-6">
-                <em>* Caso seja necessário administrar medicações ou realizar coletas durante o retorno, serão cobrados apenas os insumos utilizados.</em>
-              </p>
-
               <p className="text-pearl/60 text-xs sm:text-sm font-medium leading-relaxed mb-6">
                 <em>➤ O retorno é válido apenas para o mesmo quadro clínico que motivou o primeiro atendimento.</em>
                 <br />
