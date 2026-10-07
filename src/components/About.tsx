@@ -11,30 +11,34 @@ export default function About() {
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+
           {/* Left: Images */}
           <div className="relative reveal">
             {/* Main circle image */}
             <div className="relative">
               <div className="w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 mx-auto rounded-full overflow-hidden border-8 border-creme shadow-2xl">
                 <img
-                  src="/images/team-img-10.webp"
-                  alt="M.V. Nícolas Braga — Médico Veterinário Rodentia Vet"
+                  src="/images/vet-dog (7).webp"
+                  alt="cuidado"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
               {/* Logo overlay */}
-              <div className="absolute -bottom-3 -right-3 lg:right-8 w-40 h-40 rounded-full border-4 border-white shadow-lg overflow-hidden bg-white">
+              <div className="absolute -bottom-3 -right-3 lg:-right-10 w-40 h-40 rounded-full border-4 border-creme shadow-lg overflow-hidden bg-white">
                 <img src="/logo_vet.png" alt="Logo Rodentia Vet" className="w-full h-full object-cover" />
               </div>
             </div>
 
             {/* Small accent images */}
             <div className="hidden lg:block">
-              <div className="absolute top-4 -left-10 w-28 h-28 rounded-2xl overflow-hidden shadow-card border-4 border-white">
-                <img src="/images/wild-health4.webp" alt="Animal silvestre" className="w-full h-full object-cover" />
+              <div className="absolute top-4 -left-10 w-32 h-32 rounded-2xl overflow-hidden shadow-card border-4 border-white">
+                <img src="/images/vet-dog (4).webp" alt="cão e gato" className="w-full h-full object-cover" />
               </div>
-              <div className="absolute bottom-4 -left-10 w-28 h-28 rounded-2xl overflow-hidden shadow-card border-4 border-white">
+              <div className="absolute bottom-4 -left-10 w-32 h-32 rounded-2xl overflow-hidden shadow-card border-4 border-white">
                 <img src="/images/squirrels.webp" alt="Esquilo" className="w-full h-full object-cover" />
+              </div>
+              <div className="absolute top-4 -right-10 w-32 h-32 rounded-2xl overflow-hidden shadow-card border-4 border-white">
+                <img src="/images/farm-animal1.webp" alt="cabra" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>

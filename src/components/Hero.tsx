@@ -87,7 +87,7 @@ export default function Hero({ whatsappUrl }: HeroProps) {
             {/* Main hero image */}
             <div className="relative z-10">
               {/* Brand Logo Overlay */}
-              <div className="absolute -top-6 -left-6 md:-top-20 md:-left-10 w-20 h-20 md:w-40 md:h-40 rounded-full shadow-xl z-20 overflow-hidden reveal">
+              <div className="absolute -top-6 -left-6 md:-top-20 md:-left-16 w-20 h-20 md:w-40 md:h-40 rounded-full shadow-xl z-20 overflow-hidden reveal">
                 <img
                   src="/logo_vet.png"
                   alt="Rodentia Vet Logo"
@@ -102,7 +102,7 @@ export default function Hero({ whatsappUrl }: HeroProps) {
                 style={{ height: '420px' }}
               />
               {/* Floating badge */}
-              <div className="absolute -left-6 bottom-1/4 bg-white rounded-2xl shadow-card p-3 flex items-center gap-2 reveal">
+              <div className="absolute -left-6 bottom-12 bg-white rounded-2xl shadow-card p-3 flex items-center gap-2 reveal">
                 <div className="w-10 h-10 rounded-full bg-creme flex items-center justify-center text-xl">🐾</div>
                 <div>
                   <div className="font-semibold text-marrom text-xs">Atendimento</div>
@@ -110,7 +110,7 @@ export default function Hero({ whatsappUrl }: HeroProps) {
                 </div>
               </div>
               {/* Floating badge 2 */}
-              <div className="absolute -right-6 bottom-1/4 bg-white rounded-2xl shadow-card p-3 flex items-center gap-2 reveal reveal-delay-2">
+              <div className="absolute -right-6 bottom-12 bg-white rounded-2xl shadow-card p-3 flex items-center gap-2 reveal reveal-delay-2">
                 <div className="w-10 h-10 rounded-full bg-dourado/20 flex items-center justify-center text-xl">⭐</div>
                 <div>
                   <div className="font-bold text-marrom text-xs">Exóticos</div>
