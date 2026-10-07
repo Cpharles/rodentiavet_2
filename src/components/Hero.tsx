@@ -20,7 +20,6 @@ export default function Hero({ whatsappUrl }: HeroProps) {
           <div className="text-white pb-12 lg:pb-16">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-6 reveal">
-              <span className="w-2 h-2 rounded-full bg-dourado animate-pulse-slow" />
               <span className="text-sm font-medium text-white">🐾 Atendimento Domiciliar em SP-Capital e Alto do Tietê</span>
             </div>
 
